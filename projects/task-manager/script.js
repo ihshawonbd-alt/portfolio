@@ -1,7 +1,8 @@
 const taskInput = document.getElementById("taskInput");
 const addTaskBtn = document.getElementById("addTaskBtn");
 const taskList = document.getElementById("taskList");
-const API_URL = "http://localhost:5000";
+const API_URL = "https://portfolio-7gfo.onrender.com";
+
 
 // Load tasks
 async function loadTasks() {
